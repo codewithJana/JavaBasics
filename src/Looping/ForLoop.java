@@ -22,5 +22,21 @@ public class ForLoop {
             }
         }
 
+        //continue & Break
+        for(int i=1;i<=10;i++){
+            if (i%2 == 0){
+                System.out.println("Even number: "+i);
+                continue;
+            }
+
+            if(i==7){
+                System.out.println("cut the Loop!");
+                break;
+            }
+
+
+            System.out.println("Odd number is " + i);
+        }
+
     }
 }
