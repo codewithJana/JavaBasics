@@ -1,0 +1,25 @@
+
+String accontHolderName = "Jana"
+double balance = 1000;
+
+void deposit(double amount){
+    balance+= amount;
+    }
+void withdraw(double amount){
+    if(balance >= amount){
+        balance-=amount;
+        }
+    }
+
+Issues:
+1. Data is exposed eg: balance
+2. No control eg: balance can be negative
+3. Scaliablity
+4. Code duplication
+
+OOP : Instead of fn, Objects that contains data & behaviour to change the system
+1. Encaptulation
+2. Abstraction
+3. Inheritance
+4. Polymorphism
+
