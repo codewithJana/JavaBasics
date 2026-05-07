@@ -1,4 +1,4 @@
-package Encaptulation;
+package OOP.Encaptulation;
 
 public class BankAccount_Encap {
 
