@@ -1,0 +1,4 @@
+Inheritance:
+
+New class(child) gets the properties and methods of an existing class(parent) without rewritting them.
+
