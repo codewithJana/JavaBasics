@@ -1,0 +1,66 @@
+
+String accontHolderName = "Jana"
+double balance = 1000;
+
+void deposit(double amount){
+    balance+= amount;
+    }
+void withdraw(double amount){
+    if(balance >= amount){
+        balance-=amount;
+        }
+    }
+
+Issues:
+1. Data is exposed eg: balance
+2. No control eg: balance can be negative
+3. Scaliablity
+4. Code duplication
+
+OOP : Instead of fn, Objects that contains data & behaviour to change the system
+1. Encaptulation
+2. Abstraction
+3. Inheritance
+4. Polymorphism
+
+
+-----------------------------------------------------------------------
+
+Abstraction:
+
+--> Hiding Implementation details and show only the required functionality to user.
+
+User Know --> What to do
+User dont want to know --> How internally it works
+
+1. Abstract class --> Partial abstraction
+2. Interface --> Full abstraction/contract
+
+
+Abstract class:
+1. cannot instantiated.
+2. acts as blueprint of child class
+3. contains:
+    1. Abstract method ---> has declaration only and it doesnot have implementation : eg. abstract void start() -->Child class MUST implement it;
+    2. Normal method --> has declaration  and  implementation
+    3. variables
+    4. constructor
+4. Class should have 'abstract' keyword
+
+features of Abstract class:
+features                Supported
+1.Object creation           NO
+2.Constructor               YES
+3.variable                  YES
+4.Normal Methods            YES
+5.Abstract method           YES
+6.Code Resue                YES
+
+----------------------------------------
+Interface:
+
+--> Interface is a contract
+
+
+
+
