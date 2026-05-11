@@ -1,0 +1,102 @@
+--> Its ia a blueprint that contains only method declaration and not its implemenation.
+-->Full Abstraction
+--> Also act as contract.
+
+Rules:
+1. Interface methods are public and Abstract by default:
+    eg: void pay()---> public abstract void pay();
+2. Object cannot be created for Interface
+        eg: Payment p = new Payment();
+3. All methods in Interface should be implemented in child class
+4. Use "Implements" keyword
+5. Multiple inheritance is possible using Interface
+        interface camera{ void clickPhoto(); void RecordVideo(); }  //parent 1
+        interface MediaPlayer { void playMusic(); }  //parent 2
+
+        class Samsung implements camera , MediaPlayer{
+            void clickPhoto(){
+                sout("click pictures")
+            };
+            void playMusic(){
+                cout("playing music")
+            }
+            void SamsungWallet(){
+                sout("payment through samsung wallet")
+            }
+            void RecordVideo(){
+                sout("Recording video")
+            }
+
+        }
+
+        class SamsungTab extends Samsung{
+
+        }
+
+        class Nokia implements camera , MediaPlayer{
+                    void clickPhoto(){
+                        sout("click pictures")
+                    };
+                    void playMusic(){
+                        cout("playing music")
+                    }
+
+                    void sideFingerprintAuth(){
+                        sout("side fingerprint authentication system")
+                    }
+                    void RecordVideo(){
+                        sout("Recording video")
+                    }
+                }
+
+        public class Main{
+            psvm(String[] args){
+                Samsung s = new Samsung();
+                s.clickPhoto();
+                s.playMusic();
+                s.SamsungWallet();
+
+                Nokia n = new Nokia();
+                n.clickPhoto();
+                n.playMusic();
+                n.sideFingerprintAuth();
+            }
+        }
+
+
+interface1 pet //play
+interface2 domestic //InHouse
+
+Class Parent Animal //eat(){sout("animal is eating")
+
+//dog
+Class Child extends Patent Implement Interfaec1, interface2 {
+    void play(){ sout("Dog is playing")
+    void InHouse(){ sout("Dog is staying in house")
+}
+
+//Main class
+    Dog d = new Dog();
+    d.eat();
+    d.play();
+    d.InHouse();
+
+//Multiple interfaces with extends
+
+interface Domestic{
+    void inHouse();
+}
+
+interface pet extends Domestic{
+    void play();
+}
+
+class Dog implements pet{
+    void inHouse();{}
+    void play();{}
+}
+
+
+
+
+
