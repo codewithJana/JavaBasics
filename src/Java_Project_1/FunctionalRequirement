@@ -1,0 +1,24 @@
+1.Customer Module
+    - Add customer details
+    - View Customer details
+
+2. Food Order Module
+    - Display food items
+    - Place food orders
+    - Calculate total bill
+    - Display ordered item
+
+3. Delivery Module
+    - Display delivery status
+    - Update order status
+
+4. Display menu Options
+
+    --------- Online Food Delivery System------------
+    1. Add customer
+    2. View customer
+    3. Show menu
+    4. Place order
+    5. View bill
+    6. Delivery status
+    7. Exit

@@ -1,0 +1,20 @@
+Online Food Delivery system
+
+Requirement:
+    - A restaurent wants to create a Java app to manage online food orders
+
+Explaining current scenario/problem,
+    - Orders are written manually
+    - Customers details are difficult to track
+    - Bill calculation takes time
+    - Delivery status is not properly managed
+
+
+Application should be
+1. Store Customer details
+2. Display food menu
+3. Place food orders
+4. Calculate bill amount
+5. Display delivery status
+
+

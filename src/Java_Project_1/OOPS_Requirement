@@ -1,0 +1,24 @@
+OOPS concept             Requirement
+Class & Object
+Encaptulation
+Inheritance
+Constructor
+Method Overloading
+Method Overriding
+Polymorphism
+Abstraction
+Interface
+
+
+Person
+|
+|--- Customers
+|--- Delivery person
+
+FoodSystem (Abstract class)
+|
+|--- Customer
+
+Delivery (Interface)
+|
+|--- Delivery person
