@@ -15,9 +15,9 @@ Person
 |--- Customers
 |--- Delivery person
 
-FoodSystem (Abstract class)
+FoodService (Abstract class)
 |
-|--- Customer
+|--- FoodOrder
 
 Delivery (Interface)
 |
