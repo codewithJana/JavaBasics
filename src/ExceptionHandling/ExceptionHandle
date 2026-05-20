@@ -6,7 +6,7 @@ Exception:
     - problem that occurs due to issue in program logic or external input
     - catch and handle it using "try-catch-finally" block
 
-Exception -- > 1.Checked Exceptions  --> Verified at compile time
+Exception -- > 1.Checked Exceptions  --> Verified at compile time  ---> Mandatory to handle
                                      --> try-catch or declare using throws
                 2. Unchecked Exceptions  --> Occurs ar runtime, not checked at compile time
                                          --> eg: ArrayIndexOutOfBoundry
