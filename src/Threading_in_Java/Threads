@@ -1,0 +1,42 @@
+What is Threads:
+     - light-weight sub process that allows Java to perform multiple tasks simultaneously
+     - normal start thread: Main
+
+Without Threads:
+    - one tasks must finish before another starts
+    - Application slowness
+    - UI Freeze
+
+With Threads:
+    - Multiple tasks run concurrently
+    - Better performance
+    - Better user experience
+
+Process:
+    - Independent program
+    - Seperate memory
+    - Heavyweight
+    - slower
+
+Threads:
+    - part of process
+    - Lightweight
+    - Shared memory
+    - Faster
+
+Single Threaded Application:
+    Cook takes care of
+        - Taking order
+        - Cooking
+        - Billing
+        - Packing
+
+MultiThreading application:
+    Server- Taking order
+    Cook - cook food
+    Billing counter -  Billing
+    Package team - packing
+
+
+Thread Lifecycle:
+New-->Runnable-->Running-->waiting--Dead
